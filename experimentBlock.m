@@ -8,10 +8,6 @@ function [coherences,num_trials,quadrant_num_exp,number_active,active_stim_locat
 
 %threshold = round(threshold,1);
 subthreshold_values = linspace(0.19999,(threshold-(0.000001*threshold)),6); %choose 6 equally spaced coherence values
-%this bit of code is VESTIGIAL, it refers to when I used lower coherence
-%values for the noise quadrants/halves ... most of the operations that will
-%follow are therefore pointless. I will optimize this when I find the time.
-%-Alireza, Nov. 2016
 
 %subthreshold_values = [0.1,0.3,0.5,0.7,0.9];
 
